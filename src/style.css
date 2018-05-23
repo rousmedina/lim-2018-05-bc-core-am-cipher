@@ -1,0 +1,16 @@
+header {
+    display: block;
+}
+
+section {
+    border: 2px solid #CCC;
+    padding: 15em;
+    margin: 1em 0 1em 18em;
+    width: 80px;
+    height: 100px;
+    
+  }
+
+  h1 {
+      text-align: center;
+    }
