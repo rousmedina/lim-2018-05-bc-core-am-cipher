@@ -4,6 +4,10 @@
 }
 
 
+body{
+    background-color: khaki;
+}
+
 h1 {
     text-align: center;
 }
@@ -14,6 +18,9 @@ h2 {
 
 h3 {
     text-align:center;
+    color: white;
+    margin-top: -12px;
+
 }
 
 nav {
@@ -26,9 +33,29 @@ section {
     margin: auto;
     background-color: white;
      width: 400px;
-    height: 500px;
+    height: 400px;
     margin-left:480px;
     margin-top:1px;
     padding:1px;
 }
 
+input {
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 120;
+    height: 40px;
+    border-color: turquoise;
+    border-left-color: turquoise;
+    border-top-color: turquoise;
+}
+
+#btn1 {
+    margin-left: 100px;
+}
+
+P {
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
