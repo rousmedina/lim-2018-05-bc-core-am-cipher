@@ -1,4 +1,6 @@
 window.cipher = {
 }; 
+encode:
 
-String.fromCharCode(65,66,67)
+
+decode:

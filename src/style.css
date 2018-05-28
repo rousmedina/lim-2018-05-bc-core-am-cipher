@@ -44,18 +44,27 @@ input {
     margin-top: 20px;
     width: 120;
     height: 40px;
-    border-color: turquoise;
-    border-left-color: turquoise;
-    border-top-color: turquoise;
+
+    
 }
 
 #btn1 {
     margin-left: 100px;
 }
 
-P {
+p {
     font-size: 14px;
-    margin-left: 40px;
+    margin-left: 120px;
+    margin-top: -20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
+#clave {
+
+    margin-left: 160px;
+
+    width: 10;
+    height: 20px;
+}
+
