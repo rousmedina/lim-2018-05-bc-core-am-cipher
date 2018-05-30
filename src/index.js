@@ -1,12 +1,8 @@
-const textencode = document.getElementById("text-encode");
-const textdecode = document.getElementById("text-decode");
+const cipherBtn = document.getElementById('cipher'),
 
-const btncipher = document.getElementById("btn-cipher");
-const btndecipher = document.getElementById("btn-decipher");
+deCipherBtn = document.getElementById('decipher'),
 
-btncipher.addEventListener( "click" ,() => {
-});
-btndecipher.addEventListener( "click" ,() => {
-});
-
+input = document.getElementById('inputText'),
+show = document.getElementById('show'),
+number = document.getElementById('key');
 
