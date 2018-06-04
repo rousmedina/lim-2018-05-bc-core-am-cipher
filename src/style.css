@@ -1,70 +1,54 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    background-color: lightgrey;
+}
+nav {
+    height: 50px;
+    background-color:#CCCC;
 }
 
 
-body{
-    background-color: khaki;
-}
-
-h1 {
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
-h2 {
-    text-align:justify;
-}
-
 h3 {
-    text-align:center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -40PX;
     color: white;
-    margin-top: -12px;
-
 }
 
-nav {
-    height: 50px;
-    margin: auto;
-    background-color: #CCC
-}
 section {
     border: 1px solid #CCC;
-    margin: auto;
     background-color: white;
      width: 400px;
-    height: 400px;
-    margin-left:480px;
-    margin-top:1px;
-    padding:1px;
+    height: 450px;
+     padding:5px;
+    border-radius: 3px;
+    -webkit-margin: border radius 3%;
+    -moz-margin: border radius 3%;
+    margin: 50px auto;
+}
+
+#key {
+
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    margin-top: -120px;
 }
 
 input {
-    margin-left: 35px;
-    margin-top: 20px;
-    width: 120;
-    height: 40px;
-
-    
+    width: 350px;
+    height: 45px;
+    padding: 0px 10px;
 }
 
-#btn1 {
-    margin-left: 100px;
+button {
+    width: 70px;
+    height: 35px;
+    padding: 0px 10px;
+   background-color: darkturquoise;
+   color: white;
 }
-
-p {
-    font-size: 14px;
-    margin-left: 120px;
-    margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-#clave {
-
-    margin-left: 160px;
-
-    width: 10;
-    height: 20px;
-}
-
