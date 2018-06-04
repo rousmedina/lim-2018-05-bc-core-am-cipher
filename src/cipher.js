@@ -8,7 +8,7 @@ window.cipher = {
       } else if (toAscii >= 97 && toAscii <= 122) {
         complet += String.fromCharCode((toAscii - 97 + parseInt(offset)) % 26 + 97); // Minus
       } else if (toAscii == 32) {
-        complet += " ";
+        complet += String.fromCharCode(toAscii);
       }
     }        
     return complet;    
@@ -22,8 +22,8 @@ window.cipher = {
         complet += String.fromCharCode((toAscii + 65 - parseInt(offset)) % 26 + 65); // Mayus
       } else if (toAscii >= 97 && toAscii <= 122) {
         complet += String.fromCharCode((toAscii + 97 - parseInt(offset)-12) % 26 + 97); // Minus
-      } else if (toAscii == 32) {
-        complet += " ";
+      } else {
+        complet += String.fromCharCode(toAscii);
       }
     }        
     return complet;    
