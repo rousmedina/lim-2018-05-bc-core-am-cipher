@@ -10,7 +10,7 @@ window.cipher = {
         complet += String.fromCharCode((toAscii - 65 + parseInt(offset)) % 26 + 65); // Mayus
       } else if (toAscii >= 97 && toAscii <= 122) {
         complet += String.fromCharCode((toAscii - 97 + parseInt(offset)) % 26 + 97); // Minus
-      } else if (toAscii == 32) {
+      } else {
         complet += String.fromCharCode(toAscii);
       }
     }        
