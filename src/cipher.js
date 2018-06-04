@@ -1,11 +1,4 @@
 window.cipher = {
-<<<<<<< HEAD
-}; 
-encode:
-
-
-decode:
-=======
   encode:(offset,string) => {
     let complet = '';
     for (let i = 0; i < string.length; i++) {
@@ -42,4 +35,3 @@ decode:
   }
  // createCipherWithOffset
 }
->>>>>>> 5966493dc3a80514f3fdb71073f4dbaae0b1f066
